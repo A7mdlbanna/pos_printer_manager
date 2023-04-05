@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24831e0f-5533-451e-97ca-aa5bc045e3e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/bluetooth_printer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/bluetooth_printer.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/network_printer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/network_printer.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/pos_printer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/pos_printer.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/usb_printer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/usb_printer.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pos_printer_manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pos_printer_manager.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-    </list>
+    <list default="true" id="24831e0f-5533-451e-97ca-aa5bc045e3e3" name="Default Changelist" comment="add catID to printer model" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +45,29 @@
       <option name="presentableId" value="Default" />
       <updated>1617041112225</updated>
     </task>
+    <task id="LOCAL-00001" summary="add catID to printer model">
+      <created>1680660113094</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680660113094</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add catID to printer model" />
+    <option name="LAST_COMMIT_MESSAGE" value="add catID to printer model" />
   </component>
 </project>
