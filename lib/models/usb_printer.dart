@@ -12,6 +12,7 @@ class USBPrinter extends POSPrinter {
     bool connected: false,
     int type: 0,
     ConnectionType? connectionType,
+    int? catID,
   }) {
     this.id = id;
     this.name = name;
@@ -22,5 +23,6 @@ class USBPrinter extends POSPrinter {
     this.connected = connected;
     this.type = type;
     this.connectionType = ConnectionType.usb;
+    this.catID = catID;
   }
 }
