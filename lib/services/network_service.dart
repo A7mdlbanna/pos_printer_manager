@@ -5,7 +5,7 @@ import 'package:pos_printer_manager/pos_printer_manager.dart';
 
 class NetworkService {}
 
-Future<List<String>> findNetworkPrinter({int port: 9100}) async {
+Future<List<String>> findNetworkPrinter({int port = 9100}) async {
   final _info = NetworkInfo();
   String? ip = await (_info.getWifiIP());
   if (ip?.isEmpty == true) {
@@ -14,6 +14,7 @@ Future<List<String>> findNetworkPrinter({int port: 9100}) async {
   PosPrinterManager.logger.info("ip: $ip");
   final String subnet = ip!.substring(0, ip.lastIndexOf('.'));
   PosPrinterManager.logger.info("subnet: $subnet");
+  PosPrinterManager.logger.info("port: $port");
 
   final stream = NetworkAnalyzer.discover2(subnet, port);
   var results = await stream.toList();
